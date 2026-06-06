@@ -25,3 +25,57 @@
 
 > 让大模型能够自主规划、调用工具、执行步骤，并根据结果继续行动，直到完成目标。
 
+#### Agent学习过程
+
+**第一阶段（简单Agent 1-2周）：**
+
+目标：
+
+- 调用LLM API
+- 实现Function Calling（模型函数调用）
+- 接入工具
+- 多伦对话记忆
+
+学习内容：
+
+- Prompt Engineering
+- Tool Calling
+- Structured Output
+- OpenAI SDK
+- MCP（Model Context Protocol）
+
+**第二阶段（能做业务Agent 2-4周）：**
+
+目标：
+
+- 多工具调用
+- 工作流安排
+- Agent状态管理
+- 长短期记忆
+
+学习：
+
+- LangGraph
+- PydanticAI
+- Agno
+- MCP Server
+
+**第三阶段（多Agent系统 1-2个月）：**
+
+目标：
+
+- 多个Agent协同工作
+
+涉及：
+
+- Agent Router
+- Agent Team
+- Agent Memory
+- Agent Planning
+- Agent Reflection
+
+---
+
+#### 项目实战（第一天）
+
+> 将博客系统、模型 封装进Fastapi服务中
