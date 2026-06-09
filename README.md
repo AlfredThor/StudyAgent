@@ -38,8 +38,8 @@
 
 学习内容：
 
-- Prompt Engineering
-- Tool Calling
+- Prompt Engineering（提示词工程）
+- Tool Calling（工具调用）
 - Structured Output
 - OpenAI SDK
 - MCP（Model Context Protocol）
